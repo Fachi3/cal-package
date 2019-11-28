@@ -7,6 +7,7 @@ import {
   Image,
   Menu,
 } from 'semantic-ui-react'
+import FormExample from './FormExample'
 import logo from '../logo.svg';
 
 const MenuLayout = () => (
@@ -40,11 +41,12 @@ const MenuLayout = () => (
     </Menu>
 
     <Container text style={{ marginTop: '7em' }}>
-      <Header as='h1'>Semantic UI React Fixed Template</Header>
-      <p>This is a basic fixed menu template using fixed size containers.</p>
-      <p>
-        A text container is used for the main container, which is useful for single column layouts.
-      </p>
+      
+      <Header as='h1'>Calculadora de paquetes</Header>
+      <p>Ingrese los datos correspondientes para calcular Distancia, tiempo y costos por paquete</p>
+      <Container textAlign="left">
+        <FormExample/>
+      </Container>
     </Container>
   </div>
 )
