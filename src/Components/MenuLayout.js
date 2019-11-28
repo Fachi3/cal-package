@@ -15,7 +15,7 @@ const MenuLayout = () => (
       <Container>
         <Menu.Item as='a' header>
           <Image size='mini' src={logo} style={{ marginRight: '1.5em' }} />
-          Project Name
+          ABoys
         </Menu.Item>
         <Menu.Item as='a'>Home</Menu.Item>
 
