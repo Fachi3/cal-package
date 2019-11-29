@@ -42,8 +42,8 @@ const MenuLayout = () => (
 
     <Container text style={{ marginTop: '7em' }}>
       
-      <Header as='h1'>Calculadora de paquetes</Header>
-      <p>Ingrese los datos correspondientes para calcular Distancia, tiempo y costos por paquete</p>
+      <Header as='h1'>Calculadora de envíos</Header>
+      <p>Ingrese los datos correspondientes para calcular distancia, tiempo y costos por envíos</p>
       <Container textAlign="left">
         <FormExample/>
       </Container>
