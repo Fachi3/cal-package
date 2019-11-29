@@ -7,7 +7,7 @@ import {
   Image,
   Menu,
 } from 'semantic-ui-react'
-import FormExample from './FormExample'
+import FormMain from './FormMain'
 import logo from '../logo.svg';
 
 const MenuLayout = () => (
@@ -45,7 +45,7 @@ const MenuLayout = () => (
       <Header as='h1'>Calculadora de envíos</Header>
       <p>Ingrese los datos correspondientes para calcular distancia, tiempo y costos por envíos</p>
       <Container textAlign="left">
-        <FormExample/>
+        <FormMain/>
       </Container>
     </Container>
   </div>
