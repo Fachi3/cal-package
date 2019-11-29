@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Form , Header, Segment} from 'semantic-ui-react'
+import { Form, Header, Segment} from 'semantic-ui-react'
 
 class ChoicesPackage extends Component {
 	state = {}
@@ -14,19 +14,19 @@ class ChoicesPackage extends Component {
                     <Form.Radio
                     label='Sobre'
                     value='s'
-                    checked={value === 'sm'}
+                    checked={value === 's'}
                     onChange={this.handleChange}
                     />
                     <Form.Radio
                     label='Caja mediana'
                     value='cm'
-                    checked={value === 'md'}
+                    checked={value === 'cm'}
                     onChange={this.handleChange}
                     />
                     <Form.Radio
                     label='Caja grande'
                     value='cg'
-                    checked={value === 'lg'}
+                    checked={value === 'cg'}
                     onChange={this.handleChange}
                     />
                 </Form.Group>

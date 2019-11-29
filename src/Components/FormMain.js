@@ -28,8 +28,8 @@ class FormMain extends Component {
 			<Segment>
 				<Header as='h3'>4. Plan de envío</Header>
 				<Form.Group>
-				<Step.Group vertical>
-					<Step completed>
+				<Step.Group vertical size='tiny'>
+					<Step>
 					<Icon name='truck' />
 					<Step.Content>
 						<Step.Title>Paquete</Step.Title>
@@ -37,7 +37,7 @@ class FormMain extends Component {
 					</Step.Content>
 					</Step>
 
-					<Step completed>
+					<Step>
 					<Icon name='payment' />
 					<Step.Content>
 						<Step.Title>Recolección</Step.Title>
@@ -46,7 +46,7 @@ class FormMain extends Component {
 					</Step.Content>
 					</Step>
 
-					<Step completed>
+					<Step>
 					<Icon name='payment' />
 					<Step.Content>
 						<Step.Title>Entrega</Step.Title>
@@ -55,7 +55,7 @@ class FormMain extends Component {
 					</Step.Content>
 					</Step>
 
-					<Step completed>
+					<Step>
 					<Icon name='payment' />
 					<Step.Content>
 						<Step.Title>Estimaciones</Step.Title>
