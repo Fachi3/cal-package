@@ -7,7 +7,6 @@ class FormMain extends Component {
 	render(){
 		return(
 		<Form>
-			
 			<ChoicesPackage/>
 			<Segment>
 				<Header as='h3'>2. ¿Donde recogemos tu envío?</Header>
