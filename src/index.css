@@ -12,14 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 .ui.segment{
-  margin: 0;
+  margin: 0 !important;
   border-radius: 0;
-  border: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 
 .timeline:before {
-  content: '';
+  content: '' ;
   position: absolute;
   top: 0px;
   left: calc(33% + 15px);
