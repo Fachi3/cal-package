@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
-import { Button, Checkbox, Form , Header, Segment, Image, Step, Icon, List} from 'semantic-ui-react'
+import { Button, Checkbox, Form , Header, Segment, Image, Step, Icon, List, Container} from 'semantic-ui-react'
 import ChoicesPackage from './ChoicesPackage'
 import img from '../Resources/map.png'
 
 class FormMain extends Component {	  
 	render(){
 		return(
-		<Form>
+		<Form className="timeline">
 			<ChoicesPackage/>
-			<Segment>
-				<Header as='h3'>2. ¿Donde recogemos tu envío?</Header>
-				<Form.Group unstackable widths={2}>
+			<Segment className="entry">
+				<Header as='h3' className="title">2. ¿Donde recogemos tu envío?</Header>
+				<Form.Group unstackable widths={3} className="body">
 					<Form.Input label='Contacto' placeholder='Nombre de quien envía' />
 					<Form.Input label='Telefono' placeholder='Numero' />
+					<Form.Input label='¿Recoger en donde?' placeholder='Calle / Colonia / Ciudad' />
 				</Form.Group>
-				<Form.Input label='¿Recoger en donde?' placeholder='Calle / Colonia / Ciudad' />
 			</Segment>
 			<Segment>
 				<Header as='h3'>3. ¿Donde dejamos tu cosas?</Header>

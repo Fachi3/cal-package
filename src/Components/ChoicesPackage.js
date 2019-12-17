@@ -8,9 +8,9 @@ class ChoicesPackage extends Component {
 	render(){
 		const { value } = this.state
 		return(
-            <Segment>
-                <Header as='h3'>1. Elige el tamaño de tu paquete</Header>
-                <Form.Group inline>
+            <Segment className="entry">
+                <Header as='h3' className="title">1. Elige el tamaño de tu paquete</Header>
+                <Form.Group inline className="body">
                     <Form.Radio
                     label='Sobre'
                     value='s'
