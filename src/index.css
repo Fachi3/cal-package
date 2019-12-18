@@ -20,6 +20,14 @@ code {
   border-radius: 0 !important;
 }
 
+.ui.header{
+  padding: 0 1em !important;
+}
+
+h3.ui.header{
+  margin-top: 15px !important;
+}
+
 .timeline:before {
   content: '' ;
   position: absolute;
@@ -40,7 +48,7 @@ code {
   clear: both;
   text-align: left;
   position: relative;
-  height: 100px;
+  height: 180px;
 }
 .entry .title {
   margin-bottom: .5em;

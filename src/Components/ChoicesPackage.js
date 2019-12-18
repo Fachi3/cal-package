@@ -10,7 +10,7 @@ class ChoicesPackage extends Component {
 		return(
             <Segment className="entry">
                 <Header as='h3' className="title">1. Elige el tamaño de tu paquete</Header>
-                <Form.Group inline className="body">
+                <Form.Group widths='equal' inline className="body">
                     <Form.Radio
                     label='Sobre'
                     value='s'

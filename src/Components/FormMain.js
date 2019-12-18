@@ -10,17 +10,21 @@ class FormMain extends Component {
 			<ChoicesPackage/>
 			<Segment className="entry">
 				<Header as='h3' className="title">2. ¿Donde recogemos tu envío?</Header>
-				<Form.Group unstackable widths={3} className="body">
+				<Form.Group widths='equal' className="body">
 					<Form.Input label='Contacto' placeholder='Nombre de quien envía' />
 					<Form.Input label='Telefono' placeholder='Numero' />
+				</Form.Group>
+				<Form.Group widths='equal' className="body">
 					<Form.Input label='¿Recoger en donde?' placeholder='Calle / Colonia / Ciudad' />
 				</Form.Group>
 			</Segment>
 			<Segment className="entry">
 				<Header as='h3' className="title">3. ¿Donde dejamos tu cosas?</Header>
-				<Form.Group unstackable widths={3}>
+				<Form.Group widths='equal' className="body">
 					<Form.Input label='Contacto' placeholder='Nombre de quien recibe' />
 					<Form.Input label='Telefono' placeholder='Numero' />
+				</Form.Group>
+				<Form.Group widths='equal' className="body">
 					<Form.Input label='¿Donde entregamos?' placeholder='Calle / Colonia / Ciudad' />
 				</Form.Group>
 			</Segment>
